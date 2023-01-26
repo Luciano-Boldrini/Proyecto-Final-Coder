@@ -1,9 +1,6 @@
 # Merino Muebles
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 45128ec5995fbd7f35c82c9d0bb2780b32d41184
 
 ![](https://i.postimg.cc/NGyYVhCh/262403351-2238474309636946-6866482934892857693-n-2.jpg))
 
@@ -26,7 +23,7 @@
 - Podes comprar tu producto y pagarlo al momento de la entrega con cualquier tarjeta       
 =======
 - Podes comprar tu producto y pagarlo al momento de la entrega con cualquier tarjeta bancarizada.-      
->>>>>>> 45128ec5995fbd7f35c82c9d0bb2780b32d41184
+
 
 ------------
 
@@ -45,7 +42,7 @@
 
 =======
 ![GitHub](https://i.postimg.cc/gJjMmSsw/github.png "GitHub")  
->>>>>>> 45128ec5995fbd7f35c82c9d0bb2780b32d41184
+
 ### Editor De Codigo Utilizado
 ![VisualStudioCode](https://i.postimg.cc/rsT4yzCD/visual.jpg "VisualStudioCode")
 
@@ -53,9 +50,3 @@
 
 ------------
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 45128ec5995fbd7f35c82c9d0bb2780b32d41184
