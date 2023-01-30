@@ -1,9 +1,6 @@
 # Merino Muebles
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 45128ec5995fbd7f35c82c9d0bb2780b32d41184
 
 ![](https://i.postimg.cc/NGyYVhCh/262403351-2238474309636946-6866482934892857693-n-2.jpg))
 
@@ -22,11 +19,11 @@
 #### Lo Mejor de Visitar Nuestro Sitio Web
 - Precios Directo de Fabrica
 - Envio Gratis (Mendoza) Consultar otros destinos 
-<<<<<<< HEAD
+
 - Podes comprar tu producto y pagarlo al momento de la entrega con cualquier tarjeta       
-=======
+
 - Podes comprar tu producto y pagarlo al momento de la entrega con cualquier tarjeta bancarizada.-      
->>>>>>> 45128ec5995fbd7f35c82c9d0bb2780b32d41184
+
 
 ------------
 
@@ -40,12 +37,8 @@
 ![Html5 Css3](https://i.postimg.cc/0jj5PsMT/html-css.png "Html5 Css3")![Git](https://i.postimg.cc/Rh2TTvc9/git.png "Git")
 ![NodeJs](https://i.postimg.cc/6QZYb2MS/nodejs.png "NodeJs")![Sass](https://i.postimg.cc/HxhNfDQv/sass.png "Sass")
 ![bootstrap](https://i.postimg.cc/L4t31FWt/bootstrap.jpg "bootstrap")
-<<<<<<< HEAD
-![GitHub](https://i.postimg.cc/gJjMmSsw/github.png "GitHub"
-
-=======
 ![GitHub](https://i.postimg.cc/gJjMmSsw/github.png "GitHub")  
->>>>>>> 45128ec5995fbd7f35c82c9d0bb2780b32d41184
+
 ### Editor De Codigo Utilizado
 ![VisualStudioCode](https://i.postimg.cc/rsT4yzCD/visual.jpg "VisualStudioCode")
 
@@ -53,9 +46,3 @@
 
 ------------
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 45128ec5995fbd7f35c82c9d0bb2780b32d41184
