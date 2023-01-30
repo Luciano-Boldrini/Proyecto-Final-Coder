@@ -1,5 +1,21 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700;800&family=Nunito:wght@400;800&family=Poppins:ital,wght@1,100;1,600&display=swap");
+@media (max-width: 1024px) {
+  .logonav {
+    width: 500px; } }
+
+@media (max-width: 768px) {
+  .logonav {
+    width: 400px; } }
+
+@media (max-width: 480px) {
+  .logonav {
+    width: 300px; } }
+
+@media (max-width: 320px) {
+  .logonav {
+    display: none; } }
+
 * {
   padding: 0;
   margin: 0;
@@ -12,8 +28,8 @@
   padding: 1px;
   gap: 1px; }
   .navBar li {
-    border: 2px solid black;
-    border-radius: 10px; }
+    border: 2.3px solid black;
+    box-shadow: 5px 5px 2px  black; }
     .navBar li a {
       color: black; }
     .navBar li:hover {
@@ -475,121 +491,68 @@
     background-color: black;
     transition: all 400ms ease; }
 
-.dubai {
+.tituloresortepoket {
+  margin-top: 20px;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .tituloresortepoket h2 {
+    font-size: 50px;
+    padding: 20px 20px;
+    font-style: oblique;
+    color: white;
+    text-align: center; }
+
+.container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
   flex-wrap: wrap;
-  border: solid 1px black;
-  box-shadow: 10px 10px 10px 10px black; }
-
-.cartapoket {
   width: 100%;
-  margin: auto; }
-  .cartapoket h2 {
-    text-align: center;
-    font-size: 30px;
-    font-style: oblique;
-    text-align: center;
-    padding-top: 30px; }
-    .cartapoket h2 .tituloalmohada {
-      margin-top: 20px;
-      display: flex;
-      background-color: black;
-      width: 100%;
-      justify-content: center;
-      flex-wrap: wrap; }
-      .cartapoket h2 .tituloalmohada h1 {
-        font-size: 50px;
-        padding: 20px 20px;
-        font-style: oblique;
-        color: white;
-        text-align: center; }
-    .cartapoket h2 .container {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      width: 100%;
-      margin-top: 20px; }
-    .cartapoket h2 .card {
-      width: 295px;
-      height: 600px;
-      margin: 20px;
-      border: 0.2px solid;
-      border-radius: 9px;
-      overflow: hidden;
-      background-color: white;
-      cursor: default;
-      transition: all 400ms ease; }
-      .cartapoket h2 .card:hover {
-        box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.2); }
-      .cartapoket h2 .card img {
-        width: 300px;
-        height: 300px; }
-    .cartapoket h2 .contenido {
-      padding: 15px;
-      text-align: center; }
-      .cartapoket h2 .contenido p {
-        padding: 15px;
-        line-height: 1.5;
-        border: 0.5 solid white;
-        border-radius: 8px;
-        color: white;
-        background-color: black; }
-      .cartapoket h2 .contenido h3 {
-        font-weight: 600;
-        margin-bottom: 15px; }
-      .cartapoket h2 .contenido a {
-        text-decoration: none;
-        display: inline-block;
-        padding: 10px;
-        margin-top: 10px;
-        color: white;
-        border: 1px solid #2fb4cc;
-        border-radius: 4px;
-        background-color: black;
-        transition: all 400ms ease; }
-  .cartapoket img {
-    display: block;
-    width: 70%;
-    padding: 30px;
-    margin: auto; }
-  .cartapoket p {
-    text-align: center;
-    font-size: 30px;
-    font-style: oblique;
-    text-align: center;
-    padding-top: 30px; }
+  margin-top: 20px; }
 
-.costo {
-  width: 100%;
-  display: block; }
-  .costo p {
-    text-align: center;
-    font-size: 30px;
-    font-style: oblique;
-    text-align: center;
-    padding-top: 30px; }
+.card {
+  width: 295px;
+  height: 600px;
+  margin: 20px;
+  border: 0.2px solid;
+  border-radius: 9px;
+  overflow: hidden;
+  background-color: white;
+  cursor: default;
+  transition: all 400ms ease; }
+  .card:hover {
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.2); }
+  .card img {
+    width: 300px;
+    height: 300px; }
 
-.datacarta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center; }
-  .datacarta p {
-    text-align: center;
-    font-size: 20px;
-    font-style: italic;
-    text-align: center;
-    padding: 30px;
+.contenido {
+  padding: 15px;
+  text-align: center; }
+  .contenido p {
+    padding: 15px;
+    line-height: 1.5;
+    border: 0.5 solid white;
+    border-radius: 8px;
+    color: white;
+    background-color: black; }
+  .contenido h3 {
+    font-weight: 600;
+    margin-bottom: 15px; }
+  .contenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
     background-color: black;
-    color: white; }
-  .datacarta img {
-    width: 200px; }
+    transition: all 400ms ease; }
 
 .tituloalmohada {
   margin-top: 20px;

@@ -1,26 +1,15 @@
-.dubai {
-	@include flexible(flex,row,center,center);
-	width: 100%;
-	flex-wrap: wrap;
-	border: solid 1px black;
-	box-shadow: 10px 10px 10px 10px black;
-}
-.cartapoket {
-	width: 100%;
-	margin: auto;
-	h2 {
-	text-align: center;.tituloalmohada {
+.tituloresortepoket {
 	margin-top: 20px;
 	display: flex;
-	background-color:$background-color_1;
+	background-color: $color_2;
 	width: 100%;
 	justify-content: center;
 	flex-wrap: wrap;
-	h1 {
+	h2 {
 		font-size: 50px;
 		padding: 20px 20px;
 		font-style: oblique;
-		color:$color_3;
+		color: $color_3;
 		text-align: center;
 	}
 }
@@ -38,7 +27,8 @@
 	border: 0.2px solid;
 	border-radius: 9px;
 	overflow: hidden;
-	background-color: $background-color_2;
+	background-color:$background-color_2;
+
 	cursor: default;
 	transition: all 400ms ease;
 	&:hover {
@@ -74,54 +64,5 @@
 		border-radius: 4px;
 		background-color:$background-color_1;
 		transition: all 400ms ease;
-	}
-}
-
-		font-size: 30px;
-		font-style: oblique;
-		text-align: center;
-		padding-top: 30px;
-	}
-	img {
-		display: block;
-		width: 70%;
-		padding: 30px;
-		margin: auto;
-	}
-	p {
-		text-align: center;
-		font-size: 30px;
-		font-style: oblique;
-		text-align: center;
-		padding-top: 30px;
-	}
-}
-.costo {
-	width: 100%;
-	display: block;
-	p {
-		text-align: center;
-		font-size: 30px;
-		font-style: oblique;
-		text-align: center;
-		padding-top: 30px;
-	}
-}
-.datacarta {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	p {
-		text-align: center;
-		font-size: 20px;
-		font-style: italic;
-		text-align: center;
-		padding: 30px;
-		background-color: $background-color_1;
-		color: $color_3;
-	}
-	img {
-		width: 200px;
 	}
 }
